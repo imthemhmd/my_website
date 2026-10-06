@@ -1,0 +1,430 @@
+* {
+    padding: 0px;
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: main-font;
+
+}
+
+:root {
+    --background-color: #020b14;
+    /* --background-color: #050d18; */
+    --secendary: #0099ff;
+    --font-color: white;
+
+}
+
+@font-face {
+    font-family: main-font;
+    src: url(/assets/font/Alibaba-Black.ttf);
+}
+
+/* Link */
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: var(--font-color);
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 10px;
+    color: var(--font-color);
+}
+
+/* body */
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+/* 1. My Header */
+.my-header {
+    margin-top: 20px;
+}
+
+/* My Nav */
+.my-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-us-btn {
+    display: flex;
+    gap: 10px;
+    background-color: var(--secendary);
+
+    padding: 5px 30px;
+
+}
+
+/* Links */
+.links {
+    display: flex;
+    gap: 50px;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h1 {
+    color: var(--font-color);
+}
+
+.logo span {
+    color: var(--secendary);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 700px;
+
+    box-shadow: 0px 0px 5px 0px var(--secendary);
+}
+
+/* Hero Content */
+.hero-content {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.hero-info {
+    color: var(--secendary);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fname {
+    display: flex;
+    gap: 10px;
+    font-size: 50px;
+}
+
+.lname {
+    color: var(--secendary);
+}
+
+.my-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.my-title div {
+    width: 3px;
+    height: 25px;
+    background-color: var(--secendary);
+    opacity: 0.7;
+    margin: 20px 0px;
+}
+
+/* Hero Link */
+.hero-link {
+    margin-top: 20px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.link-see-project {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: var(--secendary);
+    padding: 10px 30px;
+}
+
+.link-my-info {
+    background-color: var(--background-color);
+    border: 1px solid var(--secendary);
+    padding: 10px 30px;
+}
+
+/* Contact Us Icons */
+.contact-us-icon {
+    display: flex;
+    gap: 20px;
+
+    margin: 20px 0px;
+}
+
+.contact-us-icon a {
+    color: var(--font-color);
+    font-size: 50px;
+}
+
+/* 2. My Project */
+.info-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-projects h6 {
+    font-size: 30px;
+}
+
+.info-projects a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+    color: var(--secendary);
+}
+
+.info-projects i {
+    rotate: 180deg;
+}
+
+
+/* 3. My Information */
+.my-informations {
+
+    border: 1px solid var(--secendary);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px var(--secendary);
+
+    padding: 50px;
+}
+
+.my-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.my-infos img {
+    width: 30%;
+    height: 80%;
+
+    border-radius: 30px;
+    /* box-shadow: -18px 18px 15px 2px var(--secendary); */
+}
+
+.my-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-blue-color {
+    color: var(--secendary);
+    opacity: 0.7;
+}
+
+.my-name {
+    font-size: 40px;
+}
+
+.my-name span {
+    color: var(--secendary);
+
+}
+
+.info-description {
+    color: var(--secendary);
+    opacity: 0.5;
+}
+
+.my-features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-top: 15px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.feature i {
+    border: 1px solid var(--secendary);
+    border-radius: 100%;
+    padding: 20px;
+    box-shadow: inset 0px 0px 5px 1px var(--secendary);
+
+    font-size: 40px;
+
+}
+
+.feature h6 {
+    font-size: 20px;
+}
+
+.feature p {
+    font-size: 15px;
+    color: var(--secendary);
+    opacity: 0.7;
+}
+
+/* 4. My Skills */
+.my-skills {
+
+    margin: 50px 0px;
+
+}
+
+.informations-skills {
+    margin: 0px 0px 0px 50px;
+}
+
+.info-skills {
+    color: var(--secendary);
+}
+
+.my-skills span {
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.description-skills {
+    color: var(--secendary);
+    font-size: 15px;
+}
+
+.my-skills {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.card-skill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+
+    border: 1px solid var(--secendary);
+    border-radius: 20px;
+}
+
+.card-skill i {
+    font-size: 40px;
+}
+
+.skill h4 {
+    font-size: 20px;
+}
+
+.number-percent p {
+    font-size: 25px;
+}
+
+.base-percent {
+    width: 200px;
+    height: 10px;
+    border: 1px solid var(--secendary);
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.percent-skill {
+    height: 9px;
+    background: linear-gradient(to right, #0099ff, white);
+    opacity: 0.7;
+    border-radius: 5px;
+    position: absolute;
+
+    right: -6px;
+    top: -5px;
+}
+
+
+/* 5. Contact Us */
+.info-contact p {
+    color: var(--secendary);
+
+}
+
+.info-contact span {
+    font-size: 30px;
+}
+
+
+
+.methods-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-style {
+    display: flex;
+    align-items: center;
+}
+
+.contact-style i {
+    border: 1px solid var(--secendary);
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--secendary);
+    box-shadow: 0px 0px 4px 1px var(--secendary);
+}
+
+.contact-style p {
+    color: var(--secendary);
+}
+
+.btn-contact {
+    border: 1px solid var(--secendary);
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 0px 0px 4px 1px var(--secendary);
+}
+
+/* 5. My Footer */
+.footer{
+    margin-top: 30px;
+}
+.line-footer {
+    margin: 0px -15px;
+    width: 101.5%;
+    background: linear-gradient(to right, #0099ff 0%, white 35%, white 50%,  white 65%, #0099ff 100%);
+    height: 1px;
+    /* #008cff 0%,
+    #008cff 35%,
+    #ffffff 50%,
+    #008cff 65%,
+    #008cff 100% */
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.law-website{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    line-height: 0.5;
+}
+
+.law-website p{
+    font-size: 10px;
+    color: var(--secendary);
+    opacity: 0.4;
+}

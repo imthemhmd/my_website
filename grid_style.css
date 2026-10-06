@@ -1,0 +1,62 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(6, 1fr); */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-areas:
+        "my-header my-header my-header my-header"
+        "my-project my-project my-project my-project"
+        "my-information my-information my-information my-information"
+        "my-skills my-skills my-skills my-skills"
+        "contact-us contact-us contact-us contact-us"
+        "footer footer footer footer";
+}
+
+.my-header {
+    grid-area: my-header;
+}
+
+.my-project {
+    grid-area: my-project;
+}
+
+.my-informations {
+    grid-area: my-information;
+}
+
+.my-skills {
+    grid-area: my-skills;
+}
+
+.contact-us {
+    grid-area: contact-us;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.card-projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.my-infos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    
+}
+
+/* 4. My Skills */
+.card-skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.contact-us{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
